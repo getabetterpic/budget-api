@@ -9,6 +9,7 @@ gem 'spring', :group => :development
 
 
 gem 'pg'
+gem 'awesome_print'
 
 
 
@@ -30,4 +31,5 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'guard-rails'
+  gem 'shoulda-matchers'
 end

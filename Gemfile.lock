@@ -37,6 +37,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
+    awesome_print (1.6.1)
     bcrypt (3.1.10)
     builder (3.2.2)
     coderay (1.1.0)
@@ -144,6 +145,8 @@ GEM
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
     shellany (0.0.1)
+    shoulda-matchers (2.8.0)
+      activesupport (>= 3.0.0)
     slop (3.6.0)
     spring (1.3.6)
     sprockets (3.2.0)
@@ -161,6 +164,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   bcrypt (~> 3.1.7)
   guard-rails
   guard-rspec
@@ -168,4 +172,5 @@ DEPENDENCIES
   rails (= 4.2.3)
   rails-api
   rspec-rails
+  shoulda-matchers
   spring
