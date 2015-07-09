@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 
 gem 'rails', '4.2.3'
 
@@ -10,8 +10,8 @@ gem 'spring', :group => :development
 
 gem 'pg'
 gem 'awesome_print'
-
-
+gem 'ffaker'
+gem 'ancestry'
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
