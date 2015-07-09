@@ -33,3 +33,8 @@ group :development, :test do
   gem 'guard-rails'
   gem 'shoulda-matchers'
 end
+
+group :test do
+  gem 'factory_girl_rails', '~> 4.0'
+  gem 'database_cleaner'
+end
