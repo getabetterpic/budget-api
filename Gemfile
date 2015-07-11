@@ -12,6 +12,8 @@ gem 'pg'
 gem 'awesome_print'
 gem 'ffaker'
 gem 'ancestry'
+gem 'active_model_serializers', :git => 'git@github.com:rails-api/active_model_serializers.git'
+gem 'rack-cors', :require => 'rack/cors'
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
@@ -32,6 +34,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'guard-rails'
   gem 'shoulda-matchers'
+  gem 'thin'
 end
 
 group :test do

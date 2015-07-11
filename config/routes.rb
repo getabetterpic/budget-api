@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  resources :categories, except: ['new', 'edit'], default: :json
+  resources :budget_entries, except: ['new', 'edit'], default: :json
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
