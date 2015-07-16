@@ -12,8 +12,10 @@ gem 'pg'
 gem 'awesome_print'
 gem 'ffaker'
 gem 'ancestry'
-gem 'active_model_serializers', :git => 'git@github.com:rails-api/active_model_serializers.git'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'jsonapi-resources'
+gem 'plaid'
+
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
